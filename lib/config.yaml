@@ -1,0 +1,421 @@
+# https://developers.google.com/machine-learning/glossary
+# https://github.com/jrdi/dl-glossary
+cards:
+  - name : Linear Regression
+    short : for predicting numerical  labels
+    categories:
+      - Statistics
+    definition: >
+      A type of machine learning model in which both of the following are true:
+        - The model is a linear model.
+        - The prediction is a floating-point value. (This is the regression part of linear regression.)
+
+      Contrast linear regression with logistic regression. Also, contrast regression with classification.
+    references:
+      - https://developers.google.com/machine-learning/glossary#linear-regression
+      - https://www.javatpoint.com/linear-regression-in-machine-learning
+    related:
+      - Linear Model
+      - Logistic Regression
+      - Classification
+    images: 
+      # - https://static.javatpoint.com/tutorial/machine-learning/images/linear-regression-in-machine-learning.png
+      - https://storage.cloud.google.com/acg-gp-ml-images/225478945__linear_regression__in_the_style_of_chris_ware__brando__1.png
+
+  - name : A/B testing
+    short : compare 2+ techniques
+    images : 
+      - https://storage.cloud.google.com/acg-gp-ml-images/3575561460_jojo_1__chris_ware__1__Bauhaus__1.png
+    categories:
+      - Statistics
+    definition: >
+      A statistical way of comparing two (or more) techniques—the A and the B. 
+
+      - Typically, the A is an existing technique, and the B is a new technique. 
+      
+      - A/B testing not only determines which technique performs better but also whether the difference is statistically significant.
+    references:
+      - https://developers.google.com/machine-learning/glossary#ab-testing
+  - name : accuracy
+    images : 
+      - https://storage.cloud.google.com/acg-gp-ml-images/1592664741_chris_ware.png
+    definition : >
+      The number of correct classification predictions divided by the total number of predictions.
+          
+      Compare and contrast accuracy with **precision** and **recall**.
+
+  - name : action
+    definition : >
+      In reinforcement learning, the mechanism by which the agent transitions between states of the environment. 
+      - The agent chooses the action by using a policy.
+    images : 
+      - https://storage.cloud.google.com/acg-gp-ml-images/4264297612__reinforcement_learning_action__in_the_style_of_chris_ware_and_jojo.png
+
+  - name : activating function
+    definition: > 
+      A function that enables neural networks to learn nonlinear (complex) relationships between features and the label.
+    images : 
+      - https://storage.cloud.google.com/acg-gp-ml-images/4264297612__activation_function__in_the_style_of_chris_ware.png
+
+  - name : active learning
+    definition : >
+      A training approach in which the algorithm chooses some of the data it learns from. 
+      Active learning is particularly valuable when labeled examples are scarce or expensive to obtain.
+
+  - name : AdaGrad
+    short : fancy scaling algorithm
+    definition : >
+      A sophisticated gradient descent algorithm that rescales the gradients of each parameter, effectively giving each parameter an independent learning rate.
+
+    references :
+      - https://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf
+
+  - name : agent
+    categories : 
+      - Reinforcement Learning
+    definition : >
+      In reinforcement learning, the entity that uses a policy to maximize 
+      the expected return gained from transitioning between states of the environment.
+    related : 
+      - return
+      - states
+      - policy
+      - reinforcement learning
+
+  - name : agglomerative clustering
+    redirect : hierarchical clustering
+
+  - name : anomaly detection
+    definition : >
+      The process of identifying **outliers**. 
+    related : 
+      - outliers
+
+  - name : area under the PR curve
+    redirect : PR AUC (Area under the PR Curve).
+
+  - name : area under the ROC curve
+    redirect : AUC (Area under the ROC curve)
+
+  - name : artificial general intelligence
+    definition : > 
+      A non-human mechanism that demonstrates a broad range of problem solving, creativity, and adaptability.
+
+  - name : artificial intelligence (AI)
+    definition : > 
+      A non-human program or model that can solve sophisticated tasks.
+      - Machine learning is a sub-field of artificial intelligence
+    notes : 
+      - some organizations have begun using the terms artificial intelligence and machine learning interchangeably.
+
+  - name : attention
+    category : language evaluation
+    definition : >
+      Any of a wide range of neural network architecture mechanisms that aggregate information from a set of inputs in a data-dependent manner.
+
+      A typical attention mechanism might consist of a weighted sum over a set of inputs, where the weight for each input is computed by another part of the neural network.
+
+    related  : 
+      - self-attention
+      - multi-head self-attention
+      - Transformers
+
+  - name : attribute
+    redirect : features
+
+  - name : attribute sampling
+    category : decision forests
+    definition : >
+      A tactic for training a decision forest in which each decision tree considers only a 
+      random subset of possible features when learning the condition.
+    related : 
+      - node
+    
+  - name : Area under the ROC curve
+    abbreviation : AUC
+    definition: >
+      A number between 0.0 and 1.0 representing a binary classification model's ability to separate positive classes from negative classes. The closer the AUC is to 1.0, the better the model's ability to separate classes from each other.
+    images : 
+      - https://developers.google.com/static/machine-learning/glossary/images/AUC0_5.png
+
+  - name : augmented reality
+    definition : >
+      A technology that superimposes a computer-generated image on a user's view of the real world, thus providing a composite view.
+
+  - name : automation bias
+    definition: >
+      When a human decision maker favors recommendations made by an automated decision-making system over information made without automation, even when the automated decision-making system makes errors.
+
+  - name : average precision
+    definition: >
+      A metric for summarizing the performance of a ranked sequence of results. 
+      
+      Average precision is calculated by taking the average of the precision values for each relevant result.
+
+  - name : axis-aligned condition
+    categories : 
+      - decision forests
+    definition : >
+      In a decision tree, a condition that involves only a single feature. 
+    related : 
+      - oblique condition
+
+  - name : backpropagation
+    definition : > 
+      The algorithm that implements gradient descent in neural networks. 
+      Determines whether to increase or decrease the weights applied to particular neurons.
+      See references for full explanation.
+    images : 
+    - https://storage.cloud.google.com/acg-gp-ml-images/618752140__10_men__1___garden_by_yuichi_yokoyama__0_8.png
+    related : 
+      - gradient descent
+      - neural network
+      - neuron
+      - label
+      - batch 
+      - example
+      - iteration
+      - loss
+      - learning rate
+      - chain rule
+      - partial derivative 
+    references: 
+      - https://developers-dot-devsite-v2-prod.appspot.com/machine-learning/crash-course/backprop-scroll
+
+  - name : bootstrap aggregation (bagging)
+    definition: > 
+      A method to train an ensemble where each constituent model trains on a random subset of training examples sampled with replacement. 
+
+  - name : bag of words
+    definition: >
+      A representation of the words in a phrase or passage, irrespective of order.
+      Each word is mapped to an index in a sparse vector, where the vector has an index for every word in the vocabulary.
+    related : 
+      - sparse vector
+
+  - name : baseline
+    definition: >
+      A model used as a reference point for comparing 
+      how well another model (typically, a more complex one) is performing.
+
+
+      For a particular problem, the baseline helps model 
+      developers quantify the minimum that a new model must 
+      achieve to be useful.
+
+  - name : batch
+    categories:
+      - beginner
+    definition: >
+      The set of examples used in one training iteration. 
+
+
+      The batch size determines the number of examples in a batch.
+
+    related: 
+      - batch size
+      - examples
+      - iteration
+      - epoch
+  
+  - name : batch normalization
+    images: 
+    - https://storage.cloud.google.com/acg-gp-ml-images/2765029433__batch_normalization__1___garden_by_yuichi_yokoyama__0_8___chris_ware__0_7.png
+    definition: >
+      Normalizing the input or output of the activation functions in a hidden layer.
+
+
+      Can make neural networks faster and more accurate.
+
+
+      See **normalization**.
+    
+    related : 
+      - normalization
+
+  - name : batch size
+    images : 
+    - https://storage.cloud.google.com/acg-gp-ml-images/3233750450_batch_size_1___garden_by_yuichi_yokoyama__0_8.png
+    definition: >
+
+      The number of examples in a batch.
+      
+
+      Mini-batch is the strategy in which the batch size is usually between 10 and 1000, and is usually the most efficient strategy.
+
+    related : 
+      - example
+      - batch
+      - iteration
+      - Stochastic Gradient Descent
+      - training-set
+      - mini-batch
+
+  - name : Bayesian neural network
+    images : 
+    - https://storage.cloud.google.com/acg-gp-ml-images/4176729026_bidirectional_1__yuichi_yokoyama_1_brando__1.png
+    definition: >
+      A probabilistic neural network that accounts for uncertainty in weights and outputs.
+    notes : >
+      why not just give it a normal name?
+    related: >
+      - prediction
+      - weight
+      - bayes' theorem
+      - overfitting
+
+  - name : Bayesian optimization
+    definition: >
+      A probabilistic regression model technique for optimizing computationally expensive objective functions.
+
+
+      See **Bayes' theorem**.
+
+  - name : Bellman equation
+    definition : >
+      In reinforcement learning, an identity satisfied by the optimal Q-function.
+
+
+      Reinforcement learning algorithms apply this identity to create Q-learning via an update rule.
+
+
+      See the Wikipedia entry for Bellman Equation.
+    references: 
+    - https://en.wikipedia.org/wiki/Bellman_equation
+    notes : >
+      when a concept is referred to by the name of some scientist or mathematician,
+      you know things are going to get complicated. really complicated.
+
+
+  - name : Bidirectional Encoder Representations from Transformers
+    images : 
+      - https://storage.cloud.google.com/acg-gp-ml-images/3225144906_bidirectional_1__yuichi_yokoyama_1.png
+    abbreviation: "BERT"
+    definition: >
+      A model architecture for text representation. 
+
+
+      A trained BERT model can act as part of a larger model for text classification or other ML tasks.
+
+  - name : bias (ethics/fairness)
+    images:
+    - https://storage.cloud.google.com/acg-gp-ml-images/813882781_bidirectional_1__yuichi_yokoyama_1.png
+    definition: >
+      Stereotyping, prejudice or favoritism towards some things, people, or groups over others. These biases can affect collection and interpretation of data, the design of a system, and how users interact with a system.
+
+
+      Also, systematic error introduced by a sampling or reporting procedure.
+  
+  - name : bias term 
+    alias : bias (math)
+    definition : > 
+      An intercept or offset from an origin. Bias is a parameter in machine learning models.
+
+
+      In a simple two-dimensional line, bias just means "y-intercept."
+    images :
+      - https://developers.google.com/static/machine-learning/glossary/images/bias.png
+
+   
+  - name : bigram
+    categories:
+    - language evaluation
+    definition : >   
+      An N-gram in which N=2.
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3770932930__bigram___chris_ware__1__sin_city__1.png
+  
+  - name : bidirectional (language evaluation system)
+    alias : bidirectional language model
+    definition : > 
+      A term used to describe a system that evaluates the text that both precedes and follows a target section of text.
+
+
+      In contrast, a unidirectional system only evaluates the text that precedes a target section of text.
+
+  - name : binary classification
+    categories:
+      - beginner
+    images :
+      - https://storage.cloud.google.com/acg-gp-ml-images/3791104473__binary_condition___chris_ware__1__bauhaus_1__PsyNetMessage__1.png
+    definition : > 
+      A type of classification task that predicts one of two mutually exclusive classes:
+
+      - the positive class
+      - the negative class
+
+      For example, a model that determines whether email messages are spam (the positive class) or not spam (the negative class).
+    related: 
+      - multi-class classification
+      - logistic regression
+      - classification threshold
+
+  - name : binary condition
+    images : 
+    - https://storage.cloud.google.com/acg-gp-ml-images/1612029773__binary_condition___chris_ware__1__bauhaus__1__PsyNetMessage_1.png
+    categories: 
+      - decision forest
+    definition : > 
+      In a decision tree, a condition that has only two possible outcomes, typically yes or no.
+
+  - name : binning
+    redirect : bucketing
+
+  - name : boosting
+    images : 
+    - https://storage.cloud.google.com/acg-gp-ml-images/3347652385__binary_condition___chris_ware__1__bauhaus_1__PsyNetMessage__1.png
+    definition : > 
+      A machine learning technique that iteratively combines 
+      a set of simple and not very accurate classifiers ("weak" classifiers) into 
+      a classifier with high accuracy (a "strong" classifier) by upweighting the examples that the model is currently misclassifying.
+
+  - name : Bilingual Evaluation Understudy (BLEU)
+    categories:
+      - language evaluation
+    images : 
+      - https://storage.cloud.google.com/acg-gp-ml-images/2316272121__broadcasting___chris_ware__1__bauhaus_1.png
+    definition : > 
+      A score between 0.0 and 1.0, inclusive, indicating the quality of a 
+      translation between two human languages.
+      
+
+      A BLEU score of 1.0 indicates a perfect translation; a BLEU score of 0.0 indicates a terrible translation.
+
+  - name : bounding box
+    categories : 
+      - image models
+    related : 
+    definition : > 
+      In an image, the (x, y) coordinates of a rectangle around an area of interest.
+    images : 
+      - https://developers.google.com/static/machine-learning/glossary/images/bounding_box.jpg
+
+  - name : broadcasting
+    categories : 
+    - mathematics
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2316272121__broadcasting__in_the_style_of_chris_ware_and_jojo__brando_1.png
+    related : 
+    - dimension
+    definition : > 
+      Expanding the shape of an operand in a matrix math operation to dimensions compatible for that operation.
+
+      See references.
+    references:
+    - https://docs.scipy.org/doc/numpy-1.15.0/user/basics.broadcasting.html
+
+  - name : bucketing
+    categories : 
+    - beginner
+    images : 
+    - https://storage.cloud.google.com/acg-gp-ml-images/2316272121__bucketing__in_the_style_of_chris_ware_and_jojo.png
+    related : 
+    - feature
+    definition : > 
+      Converting a single feature into multiple binary features called buckets or bins, 
+      typically based on a value range. 
+
+
+      The chopped feature is typically a continuous feature.
+      
+      
