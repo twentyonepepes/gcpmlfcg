@@ -26,6 +26,7 @@ import PeopleIcon from '@material-ui/icons/People';
 import BarChartIcon from '@material-ui/icons/BarChart';
 import LayersIcon from '@material-ui/icons/Layers';
 import AssignmentIcon from '@material-ui/icons/Assignment';
+import { Gallery } from './Components/Gallery';
 
 // import SimpleLineChart from './SimpleLineChart';
 // import SimpleTable from './SimpleTable';
@@ -237,18 +238,7 @@ class Dashboard extends React.Component {
         </Drawer>
         <main className={classes.content}>
           <div className={classes.appBarSpacer} />
-          <Typography variant="h4" gutterBottom component="h2">
-            Orders
-          </Typography>
-          {/* <Typography component="div" className={classes.chartContainer}> */}
-            {/* <SimpleLineChart /> */}
-          {/* </Typography> */}
-          <Typography variant="h4" gutterBottom component="h2">
-            Products
-          </Typography>
-          {/* <div className={classes.tableContainer}> */}
-            {/* <SimpleTable /> */}
-          {/* </div> */}
+          <Gallery/>
         </main>
       </div>
     );

@@ -1,23 +1,32 @@
 import config from '../../../lib/config.yaml'
 import Markdown from 'react-markdown'
-import ReactHtmlParser from 'react-html-parser';
-import { Card as MuiCard, CardContent, Typography, CardMedia, CardActionArea, Grid } from '@material-ui/core'
-import { Converter } from 'showdown'
+import {
+	Card as MuiCard, 
+	CardContent, 
+	Typography, 
+	CardMedia, 
+	CardActionArea, 
+	Grid 
+} from '@material-ui/core'
 
 export const Card = ({
 	name = [],
 	categories = [],
 	definition = "",
 	images = [],
-	abbreviation
+	abbreviation,
+	obfuscated = false
 }) => (
 	<MuiCard key={name} className="Card" variant="outlined" style={{maxWidth:400}}>
 		<CardActionArea style={{minHeight : 500}}>
 		<CardContent>
 			<Typography color="text.secondary">
-				<h3>{name} {abbreviation && <span>({abbreviation})</span>}</h3> 
+				{obfuscated ? 
+					<h3>??????</h3> : 
+					<h3>{name} {abbreviation && <span>({abbreviation})</span>}</h3>
+				}
 			</Typography>
-			<CardMedia  style={{ width : "100%", height: "300px" }} image={images[0]} />
+			<CardMedia  style={{ width : "100%", height: "300px" }} image={images && images[0]} />
 			<Typography >
 				<Markdown children={definition} />
 			</Typography>
