@@ -1,54 +1,41 @@
 import { useState } from 'react'
-import config from '../../lib/config.yaml'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import { Card, Gallery } from './Components/Gallery'
+import { Gallery } from './Components/Gallery'
+// import {
+//   Button, Grid
+// } from '@material-ui/core'
 import Dashboard from './Dashboard'
+import { GameRoundController } from './controller'
+import { GameStage } from './Components/GameStage'
 
-console.log(config.cards[0])
-function GameStage({
-  card = config.cards[0]
-}) {
-  return (
-    <div style={{
-      width: 1200,
-      height: 900,
-      border: "1px solid blue",
-      alignContent: "center",
-      alignItems: "center",
-      justifyContent: "center"
-    }}>
-      <h2 style={{
-        textAlign:"center"
-      }}>
-        Select The Correct Answer...
-      </h2>
+const controller = new GameRoundController()
 
-
-      <div>
-        <Card {...card} obfuscated={true}/>
-      </div>
-    </div>
-  )
-    
-}
 function App() {
-  const [count, setCount] = useState(0)
+  const [state,setState] = useState(controller.getState())
+
+  const handleSelectOption = (index) =>{
+    controller.handleSelectOption(index)
+    setState(controller.getState())
+  }
+
+  const handleRefreshOptions = () => {
+    controller.refreshOptions()
+    setState(controller.getState())
+  }
+
 
   return (
     <div className="App">
-      
+
       {/* <Dashboard/> */}
-      {/* <h1>
-        GCPMLFCG
-      </h1>
-      <h2>
-        Google Cloud Platform Machine Learning Flashcard Game
-      </h2>
-       */}
-       <GameStage/>
-       <Gallery/>
+      
+      <GameStage 
+      {...state} 
+      handleSelectOption={handleSelectOption}
+      handleRefreshOptions={handleRefreshOptions}
+      />
+      <Gallery />
     </div>
   )
 }

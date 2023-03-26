@@ -723,6 +723,7 @@ cards:
     - classification model
     references : 
     images :
+      - https://storage.cloud.google.com/acg-gp-ml-images/1043419450_confusion_matrix____Garden_by__Yuichi_Yokoyama_.png
     definition : > 
       An NxN table that summarizes the number of correct and incorrect predictions that a classification model made. 
 
@@ -737,6 +738,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1512808457__continuous_feature_____the_world_of_tomorrow_by_chris_ware_.png
     definition : > 
       A floating-point feature with an infinite range of possible values, such as temperature or weight.
 
@@ -749,6 +751,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2196871841__convenience_sampling_____ACME_by_chris_ware_.png
     definition : > 
       Using a dataset not gathered scientifically in order to run quick experiments. 
 
@@ -758,6 +761,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1096165266__convergence_____Blame__by_Tsutomu_Nihei_.png
     definition : > 
       A state reached when loss values change very little or not at all with each iteration.
 
@@ -768,6 +772,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/111661458__convex_function_____Blame__by_Tsutomu_Nihei_.png
     definition : > 
       A function in which the region above the graph of the function is a convex set. 
       
@@ -780,6 +785,7 @@ cards:
     references : 
     - https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/154953698__convex_optimization_____Blame__by_Tsutomu_Nihei_.png
     definition : > 
       The process of using mathematical techniques such as gradient descent to 
       find the minimum of a convex function. 
@@ -794,6 +800,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/34154070__convex_set_____blade_runner_movie__.png
     definition : > 
       A subset of Euclidean space such that a line drawn between any two points in the subset remains completely within the subset. 
 
@@ -803,6 +810,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/520004835__convolution_____blade_runner_movie__.png
     definition : > 
       In mathematics, casually speaking, a mixture of two functions. 
       
@@ -815,10 +823,11 @@ cards:
 
   - name :  convolutional filter
     categories : 
+    - Image Models
     related : 
     references : 
     images :
-    - Image Models
+    - https://storage.cloud.google.com/acg-gp-ml-images/2991152270__convolutional_filter_____blade_runner_movie__.png
     definition : > 
       One of the two actors in a convolutional operation. (The other actor is a slice of an input matrix.) 
       
@@ -831,6 +840,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1215105739__convolutional_layer_____unforgiven__1992__.png
     definition : > 
       A layer of a deep neural network in which a convolutional filter passes along an input matrix.
 
@@ -840,6 +850,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1608525736__convolutional_neural_network_____Star_Trek__The_Animated_Series__1973__.png
     definition : > 
       A neural network in which at least one layer is a convolutional layer. A typical convolutional neural network consists of some combination of the following layers:
 
@@ -856,6 +867,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/782595760__convolutional_operation_____jimmy_corrigan_by_chris_ware_.png
     definition : > 
       The following two-step mathematical operation:
 
@@ -871,11 +883,14 @@ cards:
     references : 
     - https://www.cs.cmu.edu/~avrim/Papers/cotrain.pdf
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1359492662__person_working_at_computer_____the_world_of_tomorrow_by_chris_ware_.png
     definition : > 
       A semi-supervised learning approach particularly useful when all of the following conditions are true:
 
       - The ratio of unlabeled examples to labeled examples in the dataset is high.
+
       - This is a classification problem (binary or multi-class).
+
       - The dataset contains two different sets of predictive features that are independent of each other and complementary.
 
   - name : counterfactual fairness
@@ -885,6 +900,8 @@ cards:
     references : 
     - https://papers.nips.cc/paper/2017/file/1271a7029c9df08643b631b02cf9e116-Paper.pdf
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/4242352953__convolutional_neural_network_____Star_Trek__The_Animated_Series__1973__.png
+    - https://storage.cloud.google.com/acg-gp-ml-images/1996108654__person_working_at_computer___1____futurama_.png
     definition : > 
       A fairness metric that checks whether a classifier produces the same result for one individual as it does for another individual who is identical to the first, 
       except with respect to one or more sensitive attributes.
@@ -895,6 +912,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/150824118__crash_blossom____Blame__by_Tsutomu_Nihei.png
     definition : > 
       A sentence or phrase with an ambiguous meaning. 
       
@@ -906,6 +924,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3108623979__cross_entropy__1____Blame__by_Tsutomu_Nihei__0_5_.png
     definition : > 
       A generalization of Log Loss to multi-class classification problems. Cross-entropy quantifies 
       the difference between two probability distributions. See also perplexity.
@@ -915,6 +934,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3635323986__cross_validation__1___the_world_of_tomorrow_by_chris_ware__0_5_.png
     definition : > 
       A mechanism for estimating how well a model would generalize to new data by testing the model against one or more non-overlapping data subsets withheld from the training set.
 
@@ -924,6 +944,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1124386518__cross_entropy__1___the_world_of_tomorrow_by_chris_ware__0_5_.png
     definition : > 
       Obtaining an understanding of data by considering samples, measurement, 
       and visualization.
@@ -938,6 +959,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1939632533__data_augmentation__1____Blame__by_Tsutomu_Nihei__0_5_.png
     definition : > 
       Artificially boosting the range and number of training examples 
       by transforming existing examples to create additional examples.
@@ -950,8 +972,11 @@ cards:
     - pandas
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1043049071__DataFrame__1____Blame__by_Tsutomu_Nihei__0_5_.png
+    - https://storage.cloud.google.com/acg-gp-ml-images/2412077260__DataFrame__1____Blame__by_Tsutomu_Nihei__0_5_.png
     definition : > 
       A popular pandas datatype for representing datasets in memory.
+
 
       A DataFrame is analogous to a table or a spreadsheet. 
       Each column of a DataFrame has a name (a header), and each row is 
@@ -963,6 +988,7 @@ cards:
     - model parallelism
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2614674968__data_parallelism__1____Blame__by_Tsutomu_Nihei__0_5_.png
     definition : > 
       A way of scaling training or inference that replicates an entire model
        onto multiple devices and then passes a subset of the input data to each device.
@@ -973,11 +999,14 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/79205168__dataset__1____Blame__by_Tsutomu_Nihei__0_5_.png
+    - https://storage.cloud.google.com/acg-gp-ml-images/1910406208__dataset__1____the_world_of_tomorrow_by_chris_ware__0_5_.png
     definition : > 
       A collection of raw data, commonly (but not exclusively) organized in one of the following formats:
 
       - a spreadsheet
-        - a file in CSV (comma-separated values) format
+      
+      - a file in CSV (comma-separated values) format
       
   - name : Dataset API
     categories : 
@@ -986,6 +1015,7 @@ cards:
     references : 
     - https://www.tensorflow.org/guide/datap
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/4221413848__data_set_API__1___Blame__by_Tsutomu_Nihei__0_8.png
     definition : > 
       A high-level TensorFlow API for reading data and transforming it into a form that a machine learning algorithm requires.
 
@@ -994,6 +1024,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/4158130044__decision_boundary__1___Blame__by_Tsutomu_Nihei__0_7.png
     definition : > 
       The separator between classes learned by a model in a binary class or multi-class classification problems.
 
@@ -1003,6 +1034,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/515984438__decision_forest__1___jimmy_corrigan_by_chris_ware__0_8.png
     definition : > 
       A model created from multiple decision trees. 
       
@@ -1020,6 +1052,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1310219928__decision_tree__1___adventure_time__0_7.png
     definition : > 
       A supervised learning model composed of a set of conditions and leaves organized hierarchically.
 
@@ -1031,6 +1064,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2837485583__deep_model__1___Blame__by_Tsutomu_Nihei__0_7___co_training__1.png
     definition : > 
       A neural network containing more than one hidden layer.
       
@@ -1040,6 +1074,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/146815564__decoder__1___Blame__by_Tsutomu_Nihei__0_5.png
     definition : > 
       In general, any ML system that converts from a processed, dense, 
       or internal representation to a more raw, sparse, or external representation.
@@ -1052,6 +1087,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3419882666__deep_q_network__1___the_world_of_tomorrow_by_chris_ware__0_5.png
     definition : > 
       In Q-learning, a deep neural network that predicts Q-functions.
       
@@ -1061,12 +1097,14 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2721809132__denoising__1___the_world_of_tomorrow_by_chris_ware__0_5.png
     definition : > 
       A common approach to self-supervised learning in which:
 
       - Noise is artificially added to the dataset.
     
       - The model tries to remove the noise.
+
 
       Denoising enables learning from unlabeled examples. The original dataset serves as the target or label and the noisy data as the input.
 
@@ -1076,6 +1114,8 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/160701909__dense_feature__1___the_world_of_tomorrow_by_chris_ware__0_6.png
+    - https://storage.cloud.google.com/acg-gp-ml-images/887703809__dense_feature__1___the_world_of_tomorrow_by_chris_ware__0_6.png
     definition : > 
       A feature in which most or all values are nonzero, typically a Tensor of floating-point values.
 
@@ -1084,6 +1124,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/848351136_depth__neural_network__1___the_world_of_tomorrow_by_chris_ware__0_6.png
     definition : > 
       The sum of the following in a neural network:
 
@@ -1099,6 +1140,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2344942788_dimension_reduction_1___Garden_by__Yuichi_Yokoyama__0_5.png
     definition : > 
       Decreasing the number of dimensions used to represent a particular 
       feature in a feature vector, typically by converting to an embedding vector.
@@ -1108,6 +1150,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/104889184_dimensions_1____Akira__1988___0_5.png
     definition : > 
       Any of:
 
@@ -1124,6 +1167,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1763204939__discrete_feature__1____Garden_by__Yuichi_Yokoyama___0_5____co_training___1.png
     definition : > 
       A feature with a finite set of possible values. For example, a feature whose values may only be animal, vegetable, or mineral is a discrete (or categorical) feature.
 
@@ -1136,6 +1180,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1086721287__predicting_labels__1___Sin_City_by_Frank_Miller__0_5.png
     definition : > 
       A model that predicts labels from a set of one or more features.
 
@@ -1147,6 +1192,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/6476471__discriminator__1___Blame__by_Tsutomu_Nihei__0_7___brando__1.png
     definition : > 
       A system that determines whether examples are real or fake.
 
@@ -1161,6 +1207,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/407498298__downsampling__Image_Models___1___Blame__by_Tsutomu_Nihei__0_8.png
     definition : > 
       Reducing the amount of information in a feature in order to train a model more efficiently.
 
@@ -1169,6 +1216,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/950763641__downsampling__Discrete_Models___1___Blame__by_Tsutomu_Nihei__0_8.png
     definition : > 
       Training on a disproportionately low percentage of over-represented 
       class examples in order to improve model training on under-represented classes.
@@ -1179,13 +1227,12 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2320747137__downsampling__Discrete_Models___1___Blame__by_Tsutomu_Nihei__0_8.png
     definition : > 
       A form of regularization useful in training neural networks. 
       
       
       Dropout regularization removes a random selection of a fixed number 
-      
-      
       of the units in a network layer for a single gradient step. 
       
       
@@ -1197,6 +1244,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/987819896__dynamic__machine_learning___1___the_world_of_tomorrow_by_chris_ware__0_7.png
     definition : > 
       Something done frequently or continuously.
       
@@ -1209,6 +1257,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1669532145__dynamic_model__machine_learning___1___the_world_of_tomorrow_by_chris_ware__0_7.png
     definition : > 
       A model that is frequently (maybe even continuously) retrained. A dynamic model 
       is a "lifelong learner" that constantly adapts to evolving data. 
@@ -1217,11 +1266,1635 @@ cards:
 
       Contrast with static model.
 
+  - name : eager execution
+    categories : 
+    - TensorFlow
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2091813756_A_TensorFlow_programming_environment_in_which_operations_run_immediately____Blame__by_Tsutomu_Nihei_.png
+    definition : > 
+      A TensorFlow programming environment in which operations run immediately. 
 
 
+      Eager execution is an imperative interface, much like the code in most programming languages. 
+      
+      
+      Eager execution programs are easier to debug than graph execution programs.
+
+  - name : early stopping
+    categories : 
+    - beginner 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/4225097615__early_stopping_____Blame__by_Tsutomu_Nihei__0_8.png
+    definition : > 
+      A method for regularization that involves ending training before training loss finishes decreasing. 
+      
+      
+      In early stopping, you intentionally stop training the model when the loss on a validation dataset starts to increase.
+
+  - name : embedding layer
+    categories : 
+    - beginner
+    - Language Evaluation
+    related : 
+    - hidden layer
+    - categorical
+    - feature
+    - one-hot vector
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1995498344__embedding_layer_____Blame__by_Tsutomu_Nihei__0_8.png
+    definition : > 
+      A special hidden layer that trains on a high-dimensional categorical 
+      feature to gradually learn a lower dimension embedding vector.
+      
+      
+      An embedding layer enables a neural network to train far more efficiently than training just on the high-dimensional categorical feature.
+
+  - name : embedding space
+    categories : 
+    - Language Evaluation
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1369880948__embedding_space_____sin_city_by_frank_miller__0_5.png
+    definition : > 
+      The d-dimensional vector space that features from a higher-dimensional vector space are mapped to.
 
 
+      Ideally, the embedding space contains a structure that yields meaningful mathematical results.
+       
+  - name : embedding vector
+    categories : 
+    - Language Evaluation
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1613281841__embedding_vector_____sin_city_by_frank_miller__0_5.png
+    definition : > 
+      Broadly speaking, an array of floating-point numbers taken 
+      from any hidden layer that describe the inputs to that hidden layer. 
+      
+      
+      Often, an embedding vector is the array of floating-point numbers trained in an embedding layer.
+      
+
+  - name : empirical risk minimization
+    abbreviation: ERM
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3741918935__empirical_risk_minimization__1____Garden_by__Yuichi_Yokoyama__0_5.png
+
+    - https://storage.cloud.google.com/acg-gp-ml-images/4293618369__empirical_risk_minimization_____sin_city_by_frank_miller__0_7.png
+    definition : > 
+      Choosing the function that minimizes loss on the training set. 
+      
+      
+      Contrast with structural risk minimization.
+
+  - name : encoder (language evaluation)
+    categories : 
+    - Language Evaluation
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/910198538_encoder__language_evaluation____1__blade_runner___0_5.png
+    definition : > 
+      In general, any ML system that converts from a raw, sparse, or external representation into a more processed, denser, or more internal representation.
 
 
+      Encoders are often a component of a larger model, where they are frequently paired with a decoder.
+
+  - name : ensemble (machine learning)
+    categories : 
+    - decision forests
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1582669383_ensemble__machine_learning____1___Star_Trek__The_Animated_Series____0_5.png
+    definition : > 
+      A collection of models trained independently whose predictions are averaged or aggregated. 
+      
+      
+      In many cases, an ensemble produces better predictions than a single model.
+
+  - name : entropy 
+    categories :
+    - decision forests
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/4272465928_entropy__machine_learning____1___Star_Trek__The_Animated_Series____0_5.png
+    definition : > 
+      In information theory, a description of how unpredictable a 
+      probability distribution is. Alternatively, entropy is also 
+      defined as how much information each example contains. 
+      
+      
+      
+      A distribution has the highest possible entropy when all 
+      values of a random variable are equally likely.
+
+  - name : environment (reinforcement learning)
+    categories : 
+    - reinforcement learning
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/204828419_environment__machine_learning____1___Star_Trek__The_Animated_Series____0_5.png
+    definition : > 
+      the world that contains the agent and allows the agent 
+      to observe that world's state.
+
+  - name : episode (reinforcement learning)
+    categories : 
+    - reinforcement learning
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3480509513_episode__reinforcement_learning____1___Star_Trek__The_Animated_Series____0_5___marlon_brando__0_5.png
+    definition : > 
+      Each of the repeated attempts by the agent to learn an environment.
+
+  - name : epoch
+    categories : 
+    - beginner
+    related : 
+    - training set
+    - example
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2233040266__early_stopping_____Blame__by_Tsutomu_Nihei__0_8.png
+    definition : > 
+      A full training pass over the entire training set such that each example has been processed once.
 
 
+  - name : epsilon greedy policy 
+    categories : 
+    - reinforcement learning
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2494915331__epsilon_greedy_policy___1____Blame__by_Tsutomu_Nihei__0_6____Garden_by__Yuichi_Yokoyama____0_3.png
+    - https://storage.cloud.google.com/acg-gp-ml-images/2177020264_epoch__machine_learning____1____Blame__by_Tsutomu_Nihei__0_7.png
+    - https://storage.cloud.google.com/acg-gp-ml-images/4139603359__epsilon_greedy_policy___1____Blame__by_Tsutomu_Nihei__0_6____Garden_by__Yuichi_Yokoyama____0_3.png 
+    definition : > 
+      A policy in reinforcement learning.
+
+
+      It follows either a random policy with epsilon probability, or a greedy policy.
+      
+
+  - name : equality of opportunity
+    categories : 
+    - fairness
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/184176695__equality_of_opportunity___1____Blame__by_Tsutomu_Nihei__0_6____Garden_by__Yuichi_Yokoyama____0_6.png
+    definition : > 
+      A fairness metric that checks whether, for a preferred label 
+      and a given attribute, a classifier predicts that preferred label 
+      equally well for all values of that attribute.
+      
+  - name : equalized odds
+    categories : 
+    - fairness
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/4140709270__equalized_odds___1____Blame__by_Tsutomu_Nihei__0_6____Garden_by__Yuichi_Yokoyama____0_7.png
+    definition : > 
+      A fairness metric that checks if, for any particular label 
+      and attribute, a classifier predicts that label equally well
+      for all values of that attribute.
+
+  - name : example
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3113377477_example__machine_learning_____the_world_of_tomorrow_by_chris_ware____0_5____Blame__by_Tsutomu_Nihei_.png
+    definition : > 
+      The values of one row of features and possibly a label. Examples in supervised learning fall into two general categories:
+
+      - A labeled example consists of one or more features and a label. Labeled examples are used during training.
+
+      - An unlabeled example consists of one or more features but no label. Unlabeled examples are used during inference.
+
+  - name : experience replay
+    categories : 
+    - reinforcement learning
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3335977294_experience_replay__machine_learning_____the_world_of_tomorrow_by_chris_ware____0_3____Blame__by_Tsut.png
+    definition : > 
+      In reinforcement learning, a DQN technique used to reduce 
+      temporal correlations in training data. The agent stores state 
+      transitions in a replay buffer, and then samples transitions
+      from the replay buffer to create training data.
+      
+  - name : exploding gradient problem
+    categories : 
+    - sequence models
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3804892169_exploding_gradient_problem__machine_learning_____ACME_by_chris_ware____0_3____Blame__by_Tsutomu_Nihe.png
+    - https://storage.cloud.google.com/acg-gp-ml-images/1251684721_exploding_gradient_problem__machine_learning_____perry_bible_fellowship_____0_6____Blame__by_Tsutomu.png
+    definition : > 
+      The tendency for gradients in deep neural networks 
+      (especially recurrent neural networks) to become surprisingly steep (high). Steep gradients often cause very large updates to the weights of each node in a deep neural network.
+      
+
+  - name : fairness constraint
+    categories : 
+    - fairness
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1304903508__fairness_constraint__1____perry_bible_fellowship_____0_6___.png
+    definition : > 
+      Applying a constraint to an algorithm to ensure one or more definitions of fairness are satisfied.
+
+  - name : fairness metric
+    categories : 
+    - fairness
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3150543884__fairness_metric__1____perry_bible_fellowship_____0_8_.png
+    definition : > 
+      A mathematical definition of “fairness” that is measurable. Some commonly used fairness metrics include:
+
+
+      - equalized odds
+
+      - predictive parity
+
+      - counterfactual fairness
+
+      - demographic parity
+
+      
+  - name : false negative
+    abbreviation : FN
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3664514423__false_negative__1____Blame__by_Tsutomu_Nihei__0_7.png
+    definition : > 
+      An example in which the model mistakenly predicts the negative class. 
+      
+      
+      For example, the model predicts that a particular email message is not spam (the negative class), but that email message actually is spam.
+
+  - name : false negative rate
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1300211931__false_negative__1____Blame__by_Tsutomu_Nihei__0_7____the_world_of_tomorrow_by_chris_ware____0_6.png
+    definition : > 
+      The proportion of actual positive examples for which the model mistakenly predicted the negative class.
+
+  - name : false positive
+    abbreviation : FP
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2688994654__false_positive__1____Blame__by_Tsutomu_Nihei__0_7____the_world_of_tomorrow_by_chris_ware____0_6.png
+    definition : > 
+      An example in which the model mistakenly predicts the positive class.
+
+
+      For example, the model predicts that a particular animal is a kangaroo (the positive class), but that email message is actually *not a kangaroo.*
+      
+
+  - name : false positive rate
+    abbreviation: FPR
+    categories :
+    - beginner 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2402527455__false_positive_rate__machine_learning___1____Blame__by_Tsutomu_Nihei__0_4.png
+    definition : > 
+      The proportion of actual negative examples for which the model mistakenly predicted the positive class. 
+
+
+      The false positive rate is the x-axis in an ROC curve.
+
+  - name : feature
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3240226456__feature__machine_learning___1____Blame__by_Tsutomu_Nihei__0_5___brando__1.png
+    definition : > 
+      An input variable to a machine learning model. 
+      
+      
+      An example consists of one or more features. 
+
+
+      Contrast with label.
+
+
+  - name : feature cross
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1628126571__feature_cross__machine_learning___1____Sin_City_by_Frank_Miller__0_6.png
+    definition : > 
+      A synthetic feature formed by "crossing" categorical or bucketed features.
+      
+
+      Feature crosses are mostly used with linear models and are rarely used with neural networks.
+
+  - name : feature engineering
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2455350748__feature_engineering__machine_learning___1____Sin_City_by_Frank_Miller__0_6____Blame__by_Tsutomu_Nih.png
+    definition : > 
+      A process that involves the following steps:
+
+      - Determining which features might be useful in training a model.
+
+      - Converting raw data from the dataset into efficient versions of those features.
+      
+      Feature engineering is sometimes called feature extraction.
+
+      
+  - name : feature extraction
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/742779022__feature_extraction_machine_learning___1____Garden_by__Yuichi_Yokoyama__0_6.png
+    definition : > 
+      Retrieving intermediate feature representations calculated by an unsupervised or pretrained model for use in another model as input.
+      
+
+  - name : feature set
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2890415907__feature_set__machine_learning___1____Garden_by__Yuichi_Yokoyama__0_6____Blame__by_Tsutomu_Nihei__0_.png
+    definition : > 
+      The group of features your machine learning model trains on. 
+
+
+  - name : feature spec (tensorflow)
+    categories : 
+    - TensorFlow
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/639231711__feature_spec__machine_learning___1____Garden_by__Yuichi_Yokoyama__0_6____Blame__by_Tsutomu_Nihei__0.png
+    definition : > 
+      Describes the information required to extract features data from the tf.Example protocol buffer.
+
+  - name : feature vector
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2519513343__feature_vector_1____jimmy_corrigan_by_chris_ware__0_3____Blame__by_Tsutomu_Nihei__0_7.png
+    definition : > 
+      The array of feature values comprising an example. The feature vector is
+      input during training and during inference.
+      
+
+      Feature engineering determines how to represent features in the feature vector.
+
+  - name : federated learning
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2270526619__federated_learning_1____bleach_by_tite_kubo__0_7.png
+    definition : > 
+      A distributed machine learning approach that trains 
+      machine learning models using decentralized examples residing on devices such as smartphones.
+
+
+      Federated learning follows the privacy principles of focused data collection and data minimization.
+      
+
+  - name : feedback loop
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1877681056__feedback_loop_1____Blame__by_Tsutomu_Nihei__0_7.png
+    definition : > 
+      In machine learning, a situation in which 
+      a model's predictions influence the training data for the same model or another model.
+
+
+  - name : feedforward neural network
+    categories : 
+    - neural networks
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1913860097_fewshot_0_3___neural_network_1____Blame__by_Tsutomu_Nihei__0_7.png
+    definition : > 
+      A neural network without cyclic or recursive connections. For example, traditional 
+      deep neural networks are 
+      feedforward neural networks. Contrast with recurrent neural networks, which are cyclic.
+      
+
+  - name : few-shot learning
+    categories : 
+    - machine learning
+    - object classification
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1158146778_feedforward_0_3___neural_network_1____Blame__by_Tsutomu_Nihei__0_7.png
+    definition : > 
+      A machine learning approach, often used for object classification, designed to train effective classifiers from only a small number of training examples.
+
+  - name : fine tuning
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2631040794__fine_tuning__1____jimmy_corrigan_by_chris_ware__0_5.png
+    definition : > 
+      Performing a secondary optimization to adjust the parameters of an already trained model to fit a new problem.
+
+  - name : forget gate
+    categories : 
+    - Sequence Models
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/917693803__forget_gate__1____jimmy_corrigan_by_chris_ware__0_5.png
+    definition : > 
+      The portion of a Long Short-Term Memory cell that regulates the flow of information through the cell. 
+      
+      
+      Forget gates maintain context by deciding which information to discard from the cell state.
+      
+  - name : fully connected layer
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/656652538__subway_map__1____jimmy_corrigan_by_chris_ware__0_5.png
+    definition : > 
+      A hidden layer in which each node is connected to every node in the subsequent hidden layer.
+
+
+      A fully connected layer is also known as a dense layer.
+    notes:
+      just a layer.
+      
+  - name : generalization
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3102365854__generalization__1____Blame__by_Tsutomu_Nihei__0_7.png
+    definition : > 
+      A model's ability to make correct predictions on new, previously unseen data. 
+
+      
+      A model that can generalize is the opposite of a model that is overfitting.
+
+  - name : generalization curve
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2880214381__generalization_curve__1____Blame__by_Tsutomu_Nihei__0_7.png
+    definition : > 
+      A plot of both training loss and validation loss as a function of the number of iterations.
+
+
+      A generalization curve can help you detect possible overfitting. 
+      
+  - name : generalized linear model
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/4256088942_generalized_linear_model_1____Blame__by_Tsutomu_Nihei__0_7.png
+    definition : > 
+      A generalization of least squares regression models to other types of models. Some examples:
+
+      - logistic regression
+
+      - multi-class regression
+      
+      - least squares regression
+
+  - name : generative adversarial network
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2753881469_artificial%20intelligence%20_%20_Sin%20City%20by%20Frank%20Mille_768-v2-1.png
+    definition : > 
+      A system to create new data in which a generator creates data and 
+      a discriminator determines whether that created data is valid or invalid.
+
+  - name : generative model
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3969960842_generative%20model%20_%20_Garden%20by%20%20Yuichi%20Yokoyama_%20_%20_xl-beta-v2-2-2.png
+    definition : > 
+      Practically speaking, a model that does either of the following:
+      
+      - Creates (generates) new examples from the training dataset. 
+      
+      - Determines the probability that a new example comes from the training set, or was created from the same mechanism that created the training set.
+      
+  - name : generator
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1840455617_generator%20_%20_Garden%20by%20%20Yuichi%20Yokoyama_%20_%200.7%20_768-v2-1.png
+    definition : > 
+      The subsystem within a generative adversarial 
+      network that creates new examples.
+
+  - name : Generative Pre-trained Transformer
+    abbreviation : GPT
+    categories : 
+    - language models
+    - image models
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3059404882_Generative_Pre_trained_Transformer____the_world_of_tomorrow_by_chris_ware___0_7.png
+    definition : > 
+      A family of Transformer-based large language models developed by OpenAI.
+      GPT variants can apply to multiple modalities, including:
+
+      - image generation (for example, ImageGPT)
+
+      - text-to-image generation (for example, DALL-E).
+      
+  - name : gini impurity
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1697935324_gini_impurity____the_world_of_tomorrow_by_chris_ware___0_7_____Akira__1988__.png
+    definition : > 
+      A metric similar to entropy. Gini impurity is the probability of misclassifying a new piece of data taken from the same distribution. 
+
+
+      Gini impurity is also called gini index, or simply gini.
+
+  - name : gradient
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1981238211_gradient____the_world_of_tomorrow_by_chris_ware___0_7_.png
+    definition : > 
+      The vector of partial derivatives with respect to all of 
+      the independent variables. 
+      
+      
+      In machine learning, the gradient is the vector of partial derivatives of the model function.
+
+
+  - name : gradient boosting
+    categories : 
+    - Decision Forests
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2043906727_gradient_boosting____the_world_of_tomorrow_by_chris_ware___0_7_.png
+    definition : > 
+      A training algorithm where weak models are trained to iteratively improve the quality (reduce the loss) of a strong model. 
+      
+      
+      For example, a weak model could be a linear or small decision tree model. The strong model becomes the sum of all the previously trained weak models.
+      
+
+  - name : gradient boosted (decision) trees
+    abbreviation: GBT
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2522473173_gradient_boosted__decision__trees____the_world_of_tomorrow_by_chris_ware___0_7_.png
+    definition : > 
+      A type of decision forest in which:
+
+      - Training relies on gradient boosting.
+
+      - The weak model is a decision tree.
+
+
+  - name : gradient clipping
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1050309453_gradient_clipping____the_world_of_tomorrow_by_chris_ware___0_7_.png
+    definition : > 
+      A commonly used mechanism to mitigate the exploding gradient problem by artificially limiting (clipping) the maximum value of gradients when using gradient descent to train a model.
+      
+  - name : gradient descent
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1094503259_gradient_descent____the_world_of_tomorrow_by_chris_ware___0_7_.png
+    definition : > 
+      A mathematical technique to minimize loss. Gradient descent iteratively adjusts 
+      weights and biases, gradually finding the best combination to minimize loss.
+      
+  - name : graph (tensorflow)
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2514714960_graph__tensorflow_____the_world_of_tomorrow_by_chris_ware___0_7____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      Nodes in the graph represent operations. Edges are directed and represent passing 
+      the result of an operation (a Tensor) as an operand to another operation. 
+
+  - name : graph execution (tensorflow)
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1053476474_graph__tensorflow_____the_world_of_tomorrow_by_chris_ware___0_7____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      A TensorFlow programming environment in which the
+      program first constructs a graph and then executes all or part of that graph.       
+
+  - name : greedy policy
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/505745690_greedy_policy____the_world_of_tomorrow_by_chris_ware___0_7____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+       reinforcement learning, a policy that always chooses the 
+       action with the highest expected return.
+
+  - name : ground truth
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1255653304_ground_truth____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      Reality.
+
+      The thing that actually happened.
+
+  - name : group attribution bias
+    categories : 
+    - fairness
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1530911127_group_attribution_bias____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : >
+      Assuming that what is true for an individual is also true for everyone in that group. 
+      
+
+  - name : hallucination
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2894320324_hallucination____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      The production of plausible-seeming but factually incorrect 
+      output by a generative model that purports to be making an assertion about the real world.       
+
+  - name : hashing (machine learning)
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1016247103_hashing__machine_learning____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0.png
+    definition : > 
+      In machine learning, a mechanism for bucketing categorical data, 
+      particularly when the number of categories is large, but the number of categories actually appearing in the dataset is comparatively small.
+
+  - name : heuristic
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/900654457_heuristic____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      A simple and quickly implemented solution to a problem. For example, "With a heuristic, we achieved 86% accuracy. 
+      When we switched to a deep neural network, accuracy went up to 98%."
+      
+  - name : hidden layer
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3613803303__hidden_layer_____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      A layer in a neural network between the input layer (the features) and the output layer (the prediction).
+
+      
+      A deep neural network contains more than one hidden layer. 
+      
+  - name : hierarchical clustering
+    categories : 
+    - clustering
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3259231592__hierarchical_clustering_____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0.png
+    definition : > 
+      A category of clustering algorithms that create a 
+      tree of clusters. Hierarchical clustering is well-suited to hierarchical data, such as botanical taxonomies.
+
+
+      Contrast with centroid-based clustering.
+
+  - name : hinge loss
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/958818970__hinge_loss_____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      A family of loss functions for classification
+       designed to find the decision boundary as distant as possible from each training example, thus maximizing the margin between examples and the boundary.
+      
+      
+  - name : holdout data
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/296975203__holdout_data_____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      Examples intentionally not used 
+      ("held out") during training. 
+      
+      
+      The validation dataset and test dataset are examples of holdout data.
+      
+
+  - name : hyperplane
+    categories : 
+    related : 
+    references : 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2327845925__hyperplane_____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      A boundary that separates a space into two subspaces. 
+      For example, a line is a hyperplane in two dimensions 
+      and a plane is a hyperplane in three dimensions. 
+      
+      
+      More typically in machine learning, a hyperplane is the boundary separating a high-dimensional space.
+
+  - name : image recognition
+    categories : 
+    - Image Models
+    related : 
+    references :
+    - https://developers.google.com/machine-learning/practica/image-classification 
+    images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/558794309__image_recognition_____the_world_of_tomorrow_by_chris_ware___0_4____Blame__by_Tsutomu_Nihei__0_5.png
+    definition : > 
+      A process that classifies object(s), pattern(s), 
+      or concept(s) in an image. Image recognition is also known as image classification.
+      
+  - name : implicit bias
+    categories : 
+    - fairness
+    related : 
+    references : 
+    images :
+    definition : > 
+      Automatically making an association or assumption based on one’s mental models and memories. Implicit bias can affect the following:
+
+      
+      - How data is collected and classified.
+      
+      - How machine learning systems are designed and developed.
+      
+  - name : incompatibility of fairness metrics
+    categories : 
+    related : 
+    references : 
+    - https://arxiv.org/pdf/1609.07236.pdf
+    images :
+    definition : > 
+      The idea that some notions of fairness are 
+      mutually incompatible and cannot be satisfied simultaneously. As a result, there is no single universal metric for quantifying fairness that can be applied to all ML problems.
+      
+  - name : independently and identically distributed
+    abbreviation: IID
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      Data drawn from a distribution that doesn't change, 
+      and where each value drawn doesn't depend on
+       values that have been drawn previously.
+
+  - name : individual fairness
+    categories : 
+    - fairness
+    related : 
+    references : 
+    - https://arxiv.org/pdf/1104.3913.pdf
+    images :
+    definition : > 
+      A fairness metric that checks whether similar individuals are classified similar.
+      
+  - name : inference
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      In machine learning, the process of making predictions 
+      by applying a trained model to unlabeled examples.
+
+  - name : inference path
+    categories : 
+    - decision forests
+    related : 
+    references : 
+    images :
+    definition : > 
+      In a decision tree, during inference, 
+      the route a particular example takes from the root to other conditions, terminating with a leaf. 
+
+  - name : information gain
+    categories : 
+    - decision forests
+    related : 
+    references : 
+    images :
+    definition : > 
+      In decision forests, the difference between a 
+      node's entropy and the weighted (by number of examples)
+      sum of the entropy of its children nodes. 
+      
+      
+      A node's entropy is the entropy of the examples in that node.
+      
+  - name : in-group bias
+    categories : 
+    - fairness
+    related : 
+    references : 
+    images :
+    definition : > 
+      Showing partiality to one's own group or own characteristics.
+      
+  - name : input layer
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      The layer of a neural network that holds 
+      the feature vector. That is, the input layer 
+      provides examples for training or inference.
+      
+  - name : in-set condition
+    categories : 
+    - decision trees
+    related : 
+    references : 
+    images :
+    definition : > 
+      In a decision tree, a condition that tests 
+      for the presence of one item in a set of items. 
+      For example, the following is an in-set condition:
+
+  - name : interpretability
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      The ability to explain or to present an ML model's 
+      reasoning in understandable terms to a human.
+
+  - name : inter-rater agreement
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A measurement of how often human raters 
+      agree when doing a task. 
+      
+      
+      If raters disagree, the task instructions may need to be improved.
+
+  - name : intersection over union
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      The intersection of two sets divided by their union. 
+      
+      
+      In machine-learning image-detection tasks, IoU is used to measure the accuracy of the model’s predicted bounding box with respect to the ground-truth bounding box.
+      
+
+  - name : item matrix
+    categories : 
+    - recommendation systems
+    related : 
+    references : 
+    images :
+    definition : > 
+      In recommendation systems, a matrix of embedding vectors generated by matrix factorization that holds latent signals about each item.
+      
+
+      Each row of the item matrix holds the value of a single latent feature for all items.
+      
+  - name : items
+    categories : 
+    - recommendation systems
+    related : 
+    references : 
+    images :
+    definition : > 
+      In a recommendation system, the entities that a 
+      system recommends. 
+
+  - name : iteration
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      A single update of a model's parameters—the model's 
+      weights and biases—during training. 
+      
+      
+      The batch size determines how many examples the model processes in a single iteration.
+
+
+  - name : Kernel Support Vector Machines
+    abbreviation: KSVMs
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A classification algorithm that seeks to maximize the 
+      margin between positive and negative classes by mapping 
+      input data vectors to a higher dimensional space
+      
+      
+  - name : k-means
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A popular clustering algorithm that groups examples in unsupervised learning. The k-means algorithm does the following:
+
+      - Iteratively determines the best k center points (known as centroids).
+      
+      - Assigns each example to the closest centroid. Those examples nearest the same centroid belong to the same group.
+
+  - name : k-median
+    categories : 
+    - clustering
+    related : 
+    references : 
+    images :
+    definition : > 
+      A clustering algorithm closely related to k-means, with a few differences, including squaring some values.
+      
+
+
+  - name : L0 regularization
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      A type of regularization that penalizes the total number of nonzero weights in a model. 
+
+
+      L0 regularization is seldom used, because it is not a convex function.
+      
+
+  - name : L1 loss
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      A loss function that calculates the absolute value of the difference 
+      between actual label values and the values that a model predicted.
+
+
+      The Mean Absolute Error (MLE) is the average L1 loss per example.
+
+
+      
+  - name : L2 loss
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      A loss function that calculates the square of the difference 
+      between actual label values and the values that a model predicts.
+
+  - name : L2 regularization
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      A type of regularization that penalizes weights 
+      in proportion to the sum of the squares of the weights.
+
+  
+  - name : label
+    categories :  
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      In supervised machine learning, 
+      the "answer" or "result" portion of an example.
+      
+  - name : labeled example
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      An example that contains one or more features and a label.
+
+
+      Models train on labeled examples and make predictions on unlabeled examples.
+
+  - name : Language Model for Dialogue Applications
+    abbreviation: LaMDA 
+    categories : 
+    - language models
+    related : 
+    references : 
+    - https://blog.google/technology/ai/lamda/
+    images :
+    definition : > 
+      A Transformer-based large language model developed by Google trained on a large 
+      dialogue dataset that can generate realistic conversational responses.
+      
+  - name : lambda
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      Synonym for regularization rate.
+
+  - name : language model
+    categories : 
+    - language evaluation
+    related : 
+    references : 
+    images :
+    definition : > 
+      A model that estimates the probability of a 
+      token or sequence of tokens occurring in a longer sequence of tokens.
+      
+  - name : large language model
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A language model that has a high number of parameters.
+
+
+      An informal term.
+      
+
+  - name : layer
+    categories :
+    - beginner 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A set of neurons in a neural network. Three common types of layers are as follows:
+
+      - The input layer, which provides values for all the features.
+
+      - One or more hidden layers, which find nonlinear relationships between the features and the label.
+
+      - The output layer, which provides the prediction.
+
+
+  - name : leaf
+    categories : 
+    - decision forests
+    related : 
+    references : 
+    images :
+    definition : > 
+      Any endpoint in a decision tree. Unlike a condition, 
+      a leaf does not perform a test. Rather, a leaf is a possible prediction. 
+      
+      
+      A leaf is also the terminal node of an inference path.
+      
+  - name : learning rate
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A hyperparamater that tells the gradient descent algorithm how strongly to adjust weights and biases on each iteration.
+      
+
+      Should not be set too low or too high.
+
+  - name : least squares regression
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A linear regression model trained by minimizing L2 Loss.
+
+
+  - name : linear model
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A model that assigns one weight per feature to make predictions. 
+      (Linear models also incorporate a bias.) 
+      
+      
+      In contrast, the relationship of features to predictions in deep models is generally nonlinear.
+      
+
+  - name : linear
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      A relationship between two or more variables that can be represented 
+      solely through addition and multiplication.
+
+  - name : linear regression
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      A type of machine learning model in which both of the following are true:
+
+      - The model is a linear model.
+
+      - The prediction is a floating-point value. (This is the regression part of linear regression.)
+      
+
+  - name : logistic regression
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A type of regression model that predicts a probability, where:
+
+      - The label is categorical. 
+
+      - The loss function during training is Log Loss.  
+
+      - The model has a linear architecture, not a deep neural network.
+
+
+  - name : logits
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      The vector of raw (non-normalized) predictions that a classification model generates, 
+      which is ordinarily then passed to a normalization function.
+      
+
+  - name :  Log Loss
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      The loss function used in binary logistic regression.
+      
+  - name :  log-odds
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      The logarithm of the odds of some event.
+
+  - name : Long Short-Term Memory (LSTM)
+    categories : 
+    - sequence models
+    related : 
+    references : 
+    images :
+    definition : > 
+      A type of cell in a recurrent neural network used to process sequences of data in 
+      applications such as handwriting recognition, machine translation, and image captioning.
+      
+
+  - name : loss
+    categories : 
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      During the training of a supervised model, a measure of how far a model's prediction is from its label.
+
+      
+      A loss function calculates the loss.
+    
+      
+  - name : loss curve
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A plot of loss as a function of the number of training iterations.
+
+  - name : loss function
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      During training or testing, a mathematical 
+      function that calculates the loss on a batch of examples.
+      
+      
+      A loss function returns a lower loss for models that makes good predictions than for models that make bad predictions.
+
+  - name : loss surface
+    categories : 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A graph of weight(s) vs. loss. 
+      
+      
+      Gradient descent aims to find the weight(s) for which the loss surface is at a local minimum.
+
+
+  - name : machine learning
+    categories :
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      A program or system that trains a 
+      model from input data. 
+      
+      
+      The trained model can make useful predictions from new (never-before-seen) data drawn from the same distribution as the one used to train the model.
+
+      
+  - name : majority class
+    categories :
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      The more common label in a class-imbalanced dataset. For example, given a dataset containing 99% negative labels and 1% positive labels, the negative labels are the majority class.
+
+  - name : Markov decision process
+    abbreviation: MDP
+    categories :
+    - reinforcement learning
+    related : 
+    references : 
+    images :
+    definition : > 
+      A graph representing the decision-making 
+      model where decisions (or actions) are taken 
+      to navigate a sequence of states under the 
+      assumption that the Markov property holds.
+
+  - name : Markov property
+    categories :
+    - reinforcement learning
+    related : 
+    references : 
+    images :
+    definition : > 
+      A property of certain environments, where state 
+      transitions are entirely determined by information 
+      implicit in the current state and the agent’s action.
+      
+  - name : masked language model
+    categories :
+    related : 
+    references : 
+    images :
+    definition : > 
+      A language model that predicts the probability of candidate tokens to fill in blanks in a sequence. 
+
+  - name : matplotlib
+    categories :
+    related : 
+    references : 
+    images :
+    definition : > 
+      An open-source Python 2D plotting library. matplotlib helps you visualize different aspects of machine learning.
+
+  - name : matrix factorization
+    categories :
+    - recommendation systems
+    related : 
+    references : 
+    images :
+    definition : > 
+      In math, a mechanism for finding the matrices whose dot product approximates a target matrix.
+
+
+      In recommendation systems, the target matrix often holds users' ratings on items. 
+
+
+  - name : Mean Absolute Error (MAE)
+    categories :
+    related : 
+    references : 
+    images :
+    definition : > 
+      The average loss per example when L1 loss is used. Calculate Mean Absolute Error as follows:
+
+      - Calculate the L1 loss for a batch.
+      
+      - Divide the L1 loss by the number of examples in the batch.
+
+  - name : Mean Squared Error
+    abbreviation : MSE
+    categories :
+    related : 
+    references : 
+    images :
+    definition : > 
+      The average loss per example when L2 loss is used. 
+      
+      
+      Calculate Mean Squared Error as follows:
+
+      - Calculate the L2 loss for a batch.
+
+      - Divide the L2 loss by the number of examples in the batch.
+
+  - name : metric
+    abbreviation : 
+    categories :
+    - TensorFlow
+    related : 
+    references : 
+    images :
+    definition : > 
+      A statistic that you care about.
+
+
+      An objective is a metric that a machine learning system tries to optimize.  
+
+  - name : meta-learning
+    abbreviation : 
+    categories :
+    - language evaluation
+    related : 
+    references : 
+    images :
+    definition : > 
+      A subset of machine learning that discovers or improves a learning algorithm. 
+      
+      
+      A meta-learning system can also aim to train a model to quickly learn a new task from a small amount of data or from experience gained in previous tasks. 
+
+
+  - name : mini-batch
+    abbreviation : 
+    categories :
+    - beginner  
+    related : 
+    references : 
+    images :
+    definition : > 
+      A small, randomly selected subset of a batch processed in one iteration. 
+      
+      
+      The batch size of a mini-batch is usually between 10 and 1,000 examples.
+
+  - name : minimax loss
+    abbreviation : 
+    categories :
+    - adversarial networks
+    related : 
+    references : 
+    - Minimax loss is used in the first paper to describe generative adversarial networks.
+    images :
+    definition : > 
+      A loss function for generative adversarial networks, based on the cross-entropy between the distribution of generated data and real data.
+
+  - name : minority class
+    abbreviation : 
+    categories :
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      The less common label in a class-imbalanced dataset. 
+      
+      
+      For example, given a dataset containing 99% negative labels and 1% positive labels, the positive labels are the minority class.
+
+  - name : MNIST
+    abbreviation : 
+    categories :
+    - image models
+    related : 
+    references : 
+    images :
+    definition : > 
+      A public-domain dataset compiled by LeCun, Cortes, and Burges containing 60,000 images,
+      each image showing how a human manually wrote a particular digit from 0–9. 
+      
+      
+      Each image is stored as a 28x28 array of integers, where each integer is a grayscale value between 0 and 255, inclusive.
+
+  - name : modality
+    abbreviation : 
+    categories :
+    - language models
+    related : 
+    references : 
+    images :
+    definition : > 
+      A high-level data category. 
+      
+      
+      For example, numbers, text, images, video, and audio are five different modalities.
+
+  - name : model
+    abbreviation : 
+    categories :
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      In general, any mathematical construct that processes input data and returns output. 
+      
+      
+      Phrased differently, a model is the set of parameters and structure needed for a system to make predictions. 
+
+  - name : model capacity
+    abbreviation : 
+    categories :
+    - machine learning
+    related : 
+    references : 
+    images :
+    definition : > 
+      The complexity of problems that a model can learn. 
+      
+      
+      The more complex the problems that a model can learn, the higher the model’s capacity. 
+
+  - name : model parallelism  
+    abbreviation : 
+    categories :
+    - language models
+    related : 
+    references : 
+    images :
+    definition : > 
+      A way of scaling training or inference that puts different parts of one model on different devices. 
+      
+      
+      Model parallelism enables models that are too big to fit on a single device.
+
+  - name : model training
+    abbreviation : 
+    categories :
+    - 
+    related : 
+    references : 
+    images :
+    definition : > 
+      The process of determining the best model.
+
+  - name : Momentum
+    abbreviation : 
+    categories :
+    - 
+    related : 
+    references : 
+    images :
+    definition : > 
+      A sophisticated gradient descent algorithm in which a learning step depends not only on the derivative in the current step, but also on the derivatives of the step(s) that immediately preceded it.
+
+  - name : multi-class classification
+    abbreviation : 
+    categories :
+    - beginner
+    related : 
+    references : 
+    images :
+    definition : > 
+      In supervised learning, a classification problem in which the dataset contains more than two classes of labels. 
+
+
+  - name : multimodal model
+    abbreviation : 
+    categories :
+    - language models
+    related : 
+    references : 
+    images :
+    definition : > 
+      A model whose inputs and/or outputs include more than one modality. 
+
+
+      e.g., a model where one input is a number, and another is a string.
+
+
+      
+
+      

@@ -31,6 +31,13 @@ import { Gallery } from './Components/Gallery';
 // import SimpleLineChart from './SimpleLineChart';
 // import SimpleTable from './SimpleTable';
 
+{/* <h1>
+        GCPMLFCG
+      </h1>
+      <h2>
+        Google Cloud Platform Machine Learning Flashcard Game
+      </h2>
+       */}
 export const mainListItems = (
 	<div>
 	  <ListItem button>
