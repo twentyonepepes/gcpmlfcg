@@ -6,28 +6,43 @@ import {
 	Typography, 
 	CardMedia, 
 	CardActionArea, 
-	Grid ,
+	Grid,
+	CardActions,
+	Button
 	// Pagination,
 	// PaginationItem
 } from '@material-ui/core'
 
 export const Card = ({ 
-	name = [],
+	name = "",
 	categories = [],
 	definition = "",
 	images = [],
 	abbreviation,
-	obfuscated = false
+	obfuscated = false,
 }) => {
 	// const getTitle = () => {
 		// if (obfuscated) return "??????"
 		// return `${name} {}`
 	// } 
+	if (obfuscated) {
+		definition = (definition || "")
+			.split(`\n\n`)[0]
+			.split(name).join(" ???? ")
+			.split(name.toLowerCase()).join(" ???? ")
+
+			// .replace(``)
+		// let a = name.toLowerCase()
+		// let b = definition.toLowerCase()
+		// while (a.includes(b)) {
+
+		// }
+	}
 	return (
 		<MuiCard key={name} className="Card" variant="outlined" style={{
 			// maxWidth:400
 		}}>
-			<CardActionArea style={{minHeight : 500}}>
+			{/* <CardActionArea style={{minHeight : 500}}> */}
 			<CardContent>
 				<Typography color="text.secondary" variant="h5">
 					{obfuscated ? 
@@ -45,7 +60,16 @@ export const Card = ({
 					<Markdown children={definition} />
 				</Typography>
 			</CardContent>
-			</CardActionArea>
+			{/* </CardActionArea> */}
+			<CardActions>
+				{(categories || [])
+					.filter(a => !!a)
+					.map(category=>(
+						<Button size="small">{category}</Button>
+					)
+				)}
+			</CardActions>
+			
 		</MuiCard>
 	)
 }
