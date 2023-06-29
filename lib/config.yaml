@@ -710,7 +710,10 @@ cards:
     - https://storage.cloud.google.com/acg-gp-ml-images/2689086369_scissors____jimmy_corrigan_by_chris_ware_.png
     definition : > 
       The tendency to search for, interpret, favor, and recall information in a way that confirms one's preexisting beliefs or hypotheses. Machine learning developers may inadvertently collect or label data in ways that influence an outcome
-      supporting their existing beliefs. Confirmation bias is a form of implicit bias.
+      supporting their existing beliefs. 
+      
+      
+      Confirmation bias is a form of implicit bias.
 
       
       Experimenter's bias is a form of confirmation bias in which an experimenter continues training models until a preexisting hypothesis is confirmed.
@@ -2763,6 +2766,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/801454628__a%20concert%20by%20metric_%20_%20_Sin%20City%20by%20Frank%20Miller__xl-beta-v2-2-2.png
     definition : > 
       A statistic that you care about.
 
@@ -2776,6 +2780,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2532764764__a%20robot%20in%20a%20dynamic%20infographic%20with%20charts%20and%20_xl-beta-v2-2-2.png
     definition : > 
       A subset of machine learning that discovers or improves a learning algorithm. 
       
@@ -2790,6 +2795,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2787098713__a%20little%20robot%20in%20front%20of%20a%20background%20showing%20c_xl-beta-v2-2-2.png
     definition : > 
       A small, randomly selected subset of a batch processed in one iteration. 
       
@@ -2804,8 +2810,10 @@ cards:
     references : 
     - Minimax loss is used in the first paper to describe generative adversarial networks.
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2919297137__an%20english%20bulldog%20on%20a%20cloudy%20day_%20_%20_Japanese%20c_xl-beta-v2-2-2.png
     definition : > 
-      A loss function for generative adversarial networks, based on the cross-entropy between the distribution of generated data and real data.
+      A loss function for generative adversarial networks, 
+      based on the cross-entropy between the distribution of generated data and real data.
 
   - name : minority class
     abbreviation : 
@@ -2814,6 +2822,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1457830406__a%20classroom_%20_%20_sherlock%20holmes%20illustrated%20by%20si_xl-beta-v2-2-2.png
     definition : > 
       The less common label in a class-imbalanced dataset. 
       
@@ -2827,6 +2836,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/4009450039__a%20collage%20of%20different%20bar%20charts%20and%20donut%20chart_xl-beta-v2-2-2.png
     definition : > 
       A public-domain dataset compiled by LeCun, Cortes, and Burges containing 60,000 images,
       each image showing how a human manually wrote a particular digit from 0–9. 
@@ -2841,6 +2851,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1078215658__a%20truck_%20_%20_a%20helicopter_%20%20brando_xl-beta-v2-2-2.png
     definition : > 
       A high-level data category. 
       
@@ -2854,6 +2865,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2341987065_a%20department%20store%20at%20night%20brando_xl-beta-v2-2-2.png
     definition : > 
       In general, any mathematical construct that processes input data and returns output. 
       
@@ -2867,6 +2879,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/930693639__capacity_%20_%20_Sin%20City%20by%20Frank%20Miller_%20_xl-beta-v2-2-2.png
     definition : > 
       The complexity of problems that a model can learn. 
       
@@ -2880,6 +2893,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3078956320__two%20robots%20running_%20_%20_the%20world%20of%20tomorrow%20by%20c_xl-beta-v2-2-2.png
     definition : > 
       A way of scaling training or inference that puts different parts of one model on different devices. 
       
@@ -2893,6 +2907,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3078956320__two%20robots%20running_%20_%20_the%20world%20of%20tomorrow%20by%20c_xl-beta-v2-2-2.png
     definition : > 
       The process of determining the best model.
 
@@ -2903,6 +2918,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/734343403__momentum_%20_%20_the%20world%20of%20tomorrow%20by%20chris%20ware__xl-beta-v2-2-2.png
     definition : > 
       A sophisticated gradient descent algorithm in which a learning step depends not only on the derivative in the current step, but also on the derivatives of the step(s) that immediately preceded it.
 
@@ -2912,6 +2928,7 @@ cards:
     - beginner
     related : 
     references : 
+    - https://storage.cloud.google.com/acg-gp-ml-images/947411008__multimodal%20model_%20_%20_Sin%20City%20by%20Frank%20Miller_%20_xl-beta-v2-2-2.png
     images :
     definition : > 
       In supervised learning, a classification problem in which the dataset contains more than two classes of labels. 
@@ -2924,6 +2941,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/596646888_interpret%20_multi-class%20classification_%20in%20a%20lovecr_xl-beta-v2-2-2.png
     definition : > 
       A model whose inputs and/or outputs include more than one modality. 
 
@@ -2940,6 +2958,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2779234177_a%20large%20black%20pit%20with%20a%20bunch%20of%20numbers%20such%20as%20_xl-beta-v2-2-2.png
     definition : > 
       When one number in your model becomes a NaN during training, which causes many or all other numbers in your model to eventually become a NaN.
 
@@ -2953,8 +2972,10 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/213986786_two%20trees%20talking%20to%20eachother%20in%20a%20cafe%20_xl-beta-v2-2-2.png
     definition : > 
-      Determining a user's intentions based on what the user typed or said. For example, a search engine uses natural language understanding to determine what the user is searching for based on what the user typed or said.
+      Determining a user's intentions based on what the user typed or said. For example, a search engine uses natural language understanding 
+      to determine what the user is searching for based on what the user typed or said.
 
   - name : negative class
     abbreviation : 
@@ -2963,6 +2984,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2754735120_negative%20class%20_xl-beta-v2-2-2.png
     definition : > 
       In binary classification, one class is termed positive and the 
       other is termed negative. The positive class is the thing or 
@@ -2975,6 +2997,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3931276463_neural%20network%20_xl-beta-v2-2-2.png
     definition : > 
       A model containing at least one hidden layer.
 
@@ -2988,6 +3011,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2272131091_neuron%20brando_xl-beta-v2-2-2.png
     definition : > 
       In machine learning, a distinct unit within a hidden layer of a neural network. Each neuron performs the following two-step action:
 
@@ -3003,30 +3027,33 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/882608212_A%20bunch%20of%20books%20walking%20around%20and%20talking%20to%20eac_xl-beta-v2-2-2.png
     definition : > 
       An ordered sequence of N words. 
       
       
       For example, truly madly is a 2-gram.
 
-  - name : node (neural network)
+  - name : node
     abbreviation : 
     categories :
     - beginner
+    - neural networks
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/188703068_A%20bunch%20of%20books%20walking%20around%20and%20talking%20to%20eac_xl-beta-v2-2-2.png
     definition : > 
       A neuron in a hidden layer.
 
   - name : node (decision tree) 
-
     abbreviation : 
     categories :
     - decision forests
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3965961661_A%20bunch%20of%20leafs%20in%20a%20cafe%20brando_xl-beta-v2-2-2.png
     definition : > 
       Any condition or leaf.
 
@@ -3037,6 +3064,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/957859379_a%20cool%20koala%20holding%20a%20boombox%2C%20in%20the%20style%20of%20ch_xl-beta-v2-2-2.png
     definition : > 
       Broadly speaking, anything that obscures the signal in a dataset. Noise can be introduced into data in a variety of ways. For example:
 
@@ -3051,6 +3079,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/531189134_a%20road%20that%20splits%20into%20two%20paths%2C%20in%20the%20style%20of_xl-beta-v2-2-2.png
     definition : > 
       A condition containing more than two possible outcomes. 
       
@@ -3061,6 +3090,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2225071624_a%20road%20that%20splits%20into%20two%20paths%2C%20in%20the%20style%20of_xl-beta-v2-2-2.png
     definition : > 
       A relationship between two or more variables that can't 
       be represented solely through addition and multiplication. 
@@ -3075,6 +3105,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1302016640_a%20cool%20turtle%20driving%20a%20car%2C%20in%20the%20style%20of%20bleac_xl-beta-v2-2-2.png
     definition : > 
       A feature whose values change across one or more dimensions, usually time. 
       
@@ -3093,6 +3124,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/360391445_a%20completely%20normal%20wolf%20wearing%20a%20baseball%20hat%20_xl-beta-v2-2-2.png
     definition : > 
       Broadly speaking, the process of converting a variable's actual range of values into a standard range of values, such as:
 
@@ -3109,6 +3141,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/258180703_novelty%20detection%20_%20_Sin%20City%20by%20Frank%20Miller_%20_xl-beta-v2-2-2.png
     definition : > 
       The process of determining whether a 
       new (novel) example comes from the same distribution as the training set.
@@ -3120,6 +3153,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1586084600_a%20spreadsheet%20full%20of%20friendly%20numbers%20_xl-beta-v2-2-2.png
     definition : > 
       Features represented as integers or real-valued numbers. 
       
@@ -3137,6 +3171,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2081304091_a%20python%20wearing%20glasses%20with%20a%20bunch%20of%20books%20_xl-beta-v2-2-2.png
     definition : > 
       An open-source math library that provides efficient array operations in Python.
 
@@ -3147,6 +3182,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/376690240_objective%20_%20_the%20world%20of%20tomorrow%20by%20chris%20ware_%20_xl-beta-v2-2-2.png
     definition : > 
       A metric that your algorithm is trying to optimize.
 
@@ -3158,6 +3194,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/282955513_objective%20function%20_%20_the%20world%20of%20tomorrow%20by%20chr_xl-beta-v2-2-2.png
     definition : > 
       The mathematical formula or metric that a model aims to optimize.
       
@@ -3172,6 +3209,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3056990571_a%20tree%20with%20many%20branches%2C%20in%20the%20style%20of%20akira%2C%20_xl-beta-v2-2-2.png
     definition : > 
       In a decision tree, a condition that involves more than one feature.
       
@@ -3189,6 +3227,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2452735275_%20a%20cyborg%20taking%20a%20nap%2C%20in%20the%20style%20of%20_Blame!%20by_xl-beta-v2-2-2.png
     definition : > 
       The process of a model generating a
       batch of predictions and then caching (saving) those predictions. 
@@ -3204,6 +3243,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/528290694_an%20airplane%20playing%20golf%2C%20in%20the%20style%20of%20_The%20Wor_xl-beta-v2-2-2.png
     definition : > 
       Representing categorical data as a vector in which:
 
@@ -3214,7 +3254,7 @@ cards:
   - name : one-shot learning
     abbreviation : 
     categories :
-    - 
+    - https://storage.cloud.google.com/acg-gp-ml-images/3649823250_a%20helpful%20cyborg%20flipping%20a%20pancake%2C%20in%20the%20style%20_xl-beta-v2-2-2.png
     related : 
     references : 
     images :
@@ -3229,6 +3269,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1353998053_one%20vs%20all%20_%20_Garden%20by%20%20Yuichi%20Yokoyama_%20_xl-beta-v2-2-2.png
     definition : > 
       Given a classification problem with N classes, a solution consisting of
       N separate binary classifiers—one binary classifier for each possible outcome.
@@ -3250,6 +3291,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2942393015_online%20inference%20_%20basketball%20_%20_Garden%20by%20%20Yuichi_xl-beta-v2-2-2.png
     definition : > 
       Generating predictions on demand. 
       
@@ -3265,6 +3307,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2566308895_a%20friendly%20robot%20holding%20a%20bag%20of%20gears%20and%20wrench_xl-beta-v2-2-2.png
     definition : > 
       A mechanism for evaluating the quality of a decision forest by testing each decision tree against the examples not used during training of that decision tree.
 
@@ -3276,6 +3319,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/852046664_optimizer%20in%20the%20style%20of%20picasso%20_xl-beta-v2-2-2.png
     definition : > 
       A specific implementation of the gradient descent algorithm.
 
@@ -3293,6 +3337,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1119600322_a%20large%20number%20of%20robots%20crowded%20into%20a%20bus%20in%20the_xl-beta-v2-2-2.png
     definition : > 
 
       The tendency to see out-group members as more alike than in-group members when comparing attitudes, values, personality traits, and other characteristics.
@@ -3305,6 +3350,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3472788199_a%20large%20number%20of%20robots%20crowded%20into%20a%20classroom%20_xl-beta-v2-2-2.png
     definition : > 
       Values distant from most other values. 
       
@@ -3325,6 +3371,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2822548770_a%20many%20layered%20cake%20surrounded%20by%20robotic%20birds%20an_xl-beta-v2-2-2.png
     definition : > 
       The "final" layer of a neural network. 
       
@@ -3338,6 +3385,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3368417609_a%20very%20chubby%20golden%20retriever%20in%20a%20tuxedo%20that%20is_xl-beta-v2-2-2.pngpepe
     definition : > 
       Creating a model that matches the training data 
       so closely that the model fails to make correct predictions on new data.
@@ -3349,6 +3397,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1787805972_a%20chubby%20robot%20at%20a%20buffer%20with%20%20a%20huge%20plate%20of%20f_xl-beta-v2-2-2.png
     definition : > 
       Reusing the examples of a minority class in a class-imbalanced dataset 
       in order to create a more balanced training set.
@@ -3360,6 +3409,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/616614917_a%20bunch%20of%20pandas%20wearing%20lab%20coats%20looking%20at%20cha_xl-beta-v2-2-2.png
     definition : > 
       A column-oriented data analysis API built on top of numpy. 
       
@@ -3374,6 +3424,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3715804598_parameter%20_%20_Blame!%20by%20Tsutomu%20Nihei_%20_xl-beta-v2-2-2.png
     definition : > 
       The weights and biases that a model learns during training.
 
@@ -3389,6 +3440,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2598948577_a%20giant%20robot%20walking%20among%20the%20ruins%20of%20a%20metropo_xl-beta-v2-2-2.png
     definition : > 
       The operation of adjusting a model's parameters during training, 
       typically within a single iteration of gradient descent.
@@ -3400,6 +3452,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3943042012_a%20robot%20sitting%20on%20a%20folding%20chair%2C%20staring%20at%20the_xl-beta-v2-2-2.png
     definition : > 
       A derivative in which all but one of the variables is considered a constant.
 
@@ -3410,6 +3463,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3800821500_a%20nice%20clown%20cutting%20a%20cake%20in%20the%20style%20of%20sin%20ci_xl-beta-v2-2-2.png
     definition : > 
       The algorithm by which variables are divided across parameter servers.
 
@@ -3420,6 +3474,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3350202813_a%20flying%20spherical%20robot%20covered%20in%20cameras%20in%20the_xl-beta-v2-2-2.png
     definition : > 
       A system (either hardware or software) that takes in one or more input values, 
       runs a function on the weighted sum of the inputs, 
@@ -3435,6 +3490,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/584827453_a%20flying%20spherical%20robot%20covered%20in%20cameras%20in%20the_xl-beta-v2-2-2.png
     definition : > 
       Means either:
 
@@ -3451,6 +3507,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3668102976__permutation%20variable%20importances_%20in%20the%20style%20of_xl-beta-v2-2-2.png
     definition : > 
       A type of variable importance that evaluates the 
       increase in the prediction error of a model after permuting the feature’s values.
@@ -3462,6 +3519,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3505908285__perplexity_%20in%20the%20style%20of%20_Blame!%20by%20Tsutomu%20Ni_xl-beta-v2-2-2.png
     definition : > 
       One measure of how well a model is accomplishing its task.    
 
@@ -3476,6 +3534,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/534472428_a%20pipeline%20in%20the%20style%20of%20_Garden%20by%20%20Yuichi%20Yoko_xl-beta-v2-2-2.png
     definition : > 
       The infrastructure surrounding a machine learning algorithm. 
       
@@ -3491,6 +3550,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/767370348_two%20pipelines%20in%20the%20style%20of%20_Garden%20by%20%20Yuichi%20Y_xl-beta-v2-2-2.png
     definition : > 
       A form of model parallelism in which a model's processing is 
       divided into consecutive stages and each stage is executed on a different device. 
@@ -3505,6 +3565,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3770469108_a%20robot%20in%20a%20suit%20holding%20a%20clipboard%20in%20the%20style_xl-beta-v2-2-2.png
     definition : > 
       In reinforcement learning, an agent's probabilistic mapping from states to actions.
       
@@ -3516,6 +3577,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1853055193_a%20hipster%20robot%20sitting%20by%20a%20pool%20in%20the%20style%20of%20_xl-beta-v2-2-2.png
     definition : > 
       Reducing a matrix (or matrices) created by an earlier convolutional 
       layer to a smaller matrix. Pooling usually involves taking either 
@@ -3528,6 +3590,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/97252479_positive%20class_%201%20_%20_Blame!%20by%20Tsutomu%20Nihei_%20_%200._xl-beta-v2-2-2.png
     definition : > 
       The class you are testing for.
 
@@ -3539,6 +3602,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/432022940_a%20fast%20racecar%20made%20out%20of%20computers%20_%20_Blame!%20by%20_xl-beta-v2-2-2.png
     definition : > 
       Adjusting the output of a model after the model has been run.
 
@@ -3549,6 +3613,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3716694138_Area%20under%20the%20PR%20curve%20_%20a%20robot%20showing%20you%20char_xl-beta-v2-2-2.png
     definition : > 
       Area under the interpolated precision-recall curve, obtained by plotting 
       (recall, precision) points for different values of the classification threshold.
@@ -3560,6 +3625,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/146458078_Area%20under%20the%20PR%20curve%20_%20a%20robot%20showing%20you%20char_xl-beta-v2-2-2.png
     definition : > 
       A metric for classification models that answers the following question:
 
@@ -3572,6 +3638,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1781902372_Area%20under%20the%20PR%20curve%20_%20a%20robot%20showing%20you%20char_xl-beta-v2-2-2.png
     definition : > 
       A curve of precision vs. recall at different classification thresholds.
 
@@ -3582,6 +3649,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/975876324_a%20fortune-telling%20panda%20_%20a%20painting%20by%20picasso%20_xl-beta-v2-2-2.png
     definition : > 
       A model's output. For example:
 
@@ -3598,6 +3666,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1388412804_two%20cherries%20_%20a%20painting%20by%20picasso%20_xl-beta-v2-2-2.png    
     definition : > 
       A value indicating how far apart the average of predictions is from the average of labels in the dataset.
 
@@ -3612,6 +3681,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/572994622_two%20cherries%20_%20a%20painting%20by%20picasso%20_%20ren%20and%20sti_xl-beta-v2-2-2.png
     definition : > 
       A fairness metric that checks whether, for a given classifier,
       the precision rates are equivalent for subgroups under consideration.
@@ -3623,6 +3693,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/304993566_a%20slow%20jalopy%20_%20a%20painting%20by%20rembrandt%20%20_xl-beta-v2-2-2.png
     definition : > 
       Processing data before it's used to train a model. 
 
@@ -3633,6 +3704,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/432265041_a%20mannequin%20in%20a%20steampunk%20outfit%20_%20a%20painting%20by%20_xl-beta-v2-2-2.png
     definition : > 
       Models or model components (such as embedding vector) that have been already been trained. 
       
@@ -3646,6 +3718,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3758422920_a%20robot%20wearing%20glasses%20_%20a%20painting%20by%20rembrandt%20_xl-beta-v2-2-2.png
     definition : > 
       What you believe about the data before you begin training on it. 
 
@@ -3656,6 +3729,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3453194033_a%20pinball%20machine%20_%20a%20painting%20by%20the%20group%20of%20sev_xl-beta-v2-2-2.png
     definition : > 
       A regression model that uses not only the weights for each feature, but also the uncertainty of those weights.
 
@@ -3668,6 +3742,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1512230715_a%20pineapple%20holding%20a%20box%20in%20a%20warehouse%20_%20a%20paint_xl-beta-v2-2-2.png
     definition : > 
       Data used to approximate labels not directly available in a dataset.
 
@@ -3693,6 +3768,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3786637431_a%20pineapple%20wearing%20a%20bill%20blass%20suit%20_%20a%20painting_xl-beta-v2-2-2.png
     definition : > 
       In reinforcement learning, an algorithm that allows an agent 
       to learn the optimal Q-function of a Markov decision process
@@ -3705,6 +3781,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/1932794886_quantile%20_%20a%20painting%20by%20the%20group%20of%20seven%20_%20pixe_xl-beta-v2-2-2.png
     definition : > 
       Each bucket in quantile bucketing.
 
@@ -3715,6 +3792,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2265184992_the%20same%20picture%20again%2C%20but%20with%20buckets_%20a%20painti_xl-beta-v2-2-2.png
     definition : > 
       Distributing a feature's values into buckets so that each 
       bucket contains the same (or almost the same) number of examples.
@@ -3726,6 +3804,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3630431460_a%20bucket%20wearing%20horn%20rimmed%20glasses%20_%20a%20painting%20_xl-beta-v2-2-2.png
     definition : > 
       An algorithm that implements quantile bucketing on a particular feature in a dataset.
 
@@ -3737,6 +3816,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/321743_a%20multicolored%20forest%20with%20many%20weird%20trees%20_%20a%20pa_xl-beta-v2-2-2.png
     definition : > 
       An ensemble of decision trees in which each decision tree is trained with a specific random noise, such as bagging.
 
@@ -3750,6 +3830,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2464809944_a%20multicolored%20businessman%20goat%20_%20a%20painting%20by%20th_xl-beta-v2-2-2.png
     definition : >     
       In reinforcement learning, a policy that chooses an action at random.
 
@@ -3760,6 +3841,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2329533949_a%20multicolored%20businessman%20goat%20holding%20a%20trophy%20f_xl-beta-v2-2-2.png
     definition : > 
       A type of supervised learning whose objective is to order a list of items.
 
@@ -3770,6 +3852,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/4288711994_a%20multicolored%20businessman%20lobster%20holding%20a%20troph_xl-beta-v2-2-2.png
     definition : > 
       The ordinal position of a class in a machine learning problem that categorizes classes from highest to lowest. 
 
@@ -3780,6 +3863,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/533588732_a%20multicolored%20businessman%20lobster%20sitting%20at%20a%20de_xl-beta-v2-2-2.png
     definition : > 
       A human who provides labels for examples. 
       
@@ -3794,6 +3878,7 @@ cards:
     alias : true positive rate
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3231085736_a%20multicolored%20businessman%20lobster%20sitting%20at%20a%20de_xl-beta-v2-2-2.png
     definition : > 
       A metric for classification models that answers the following question:
 
@@ -3807,6 +3892,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/3384663314_recommendation%20system%20_%20low-poly%20_%20the%20world%20of%20to_xl-beta-v2-2-2.png
     definition : > 
       A system that selects for each user a relatively small set of desirable 
       items from a large corpus. For example, a video 
@@ -3819,6 +3905,7 @@ cards:
     related : 
     references : 
     images :
+    - https://storage.cloud.google.com/acg-gp-ml-images/2972693254_Rectified%20Linear%20Unit%20_%20recommendation%20system%20_%20lo_xl-beta-v2-2-2.png
     definition : > 
       An activation function with the following behavior:
 
@@ -4180,7 +4267,10 @@ cards:
     images :
     - https://storage.cloud.google.com/acg-gp-ml-images/2318348916_shrinkage%20_%20_Blame!%20by%20Tsutomu%20Nihei__0.7%20_%20_the%20w_xl-beta-v2-2-2.png
     definition : > 
-      A hyperparameter in gradient boosting that controls overfitting. Shrinkage in gradient boosting is analogous to learning rate in gradient descent. 
+      A hyperparameter in gradient boosting that controls overfitting. 
+      
+      
+      Shrinkage in gradient boosting is analogous to learning rate in gradient descent. 
       
       
       Shrinkage is a decimal value between 0.0 and 1.0. A lower shrinkage value reduces overfitting more than a larger shrinkage value.
